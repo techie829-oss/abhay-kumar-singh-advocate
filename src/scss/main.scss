@@ -47,6 +47,13 @@ h1, h2, h3, h4, h5, h6, .font-serif {
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(197, 160, 89, 0.1);
+  transition: all 0.3s ease;
+
+  &.navbar-scrolled, &.navbar-solid {
+    background: #0A192F !important;
+    backdrop-filter: none;
+    border-bottom: 1px solid rgba(197, 160, 89, 0.3);
+  }
 }
 
 .btn-premium {

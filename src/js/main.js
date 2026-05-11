@@ -42,10 +42,10 @@ revealElements.forEach((el) => {
 window.addEventListener('scroll', () => {
     const nav = document.querySelector('.navbar');
     if (window.scrollY > 50) {
-        nav.classList.add('shadow-lg');
+        nav.classList.add('shadow-lg', 'navbar-scrolled');
         nav.style.padding = '0.5rem 0';
     } else {
-        nav.classList.remove('shadow-lg');
+        nav.classList.remove('shadow-lg', 'navbar-scrolled');
         nav.style.padding = '1rem 0';
     }
 });
