@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/abhay-kumar-singh-advocate/',
+  base: './',
   build: {
     rollupOptions: {
       input: {
